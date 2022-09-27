@@ -1,0 +1,49 @@
+.counterContainer {
+  display: flex;
+  gap: 70px;
+}
+
+.counterContainer > div {
+  font-size: 25px;
+}
+
+.counterContainer > img {
+  cursor: pointer;
+}
+
+.additionalButtons {
+  display: flex;
+  gap: 50px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.additionalButtons > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.additionalButtons > button::first-letter {
+  color: hsl(208, 99%, 65%);
+  font-size: 16px;
+}
+
+.stepInput {
+  position: absolute;
+  top: -30px;
+}
+
+.stepInput > label {
+  margin-right: 10px;
+}
+
+.stepInput > input {
+  width: 38px;
+  text-align: center;
+}
+
+.stepInput > input::placeholder {
+  color: hsl(206, 7%, 42%);
+}
