@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+body {
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 890px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.reportSection {
+  width: 500px;
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  height: 630px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: lightskyblue;
+}
+
+.reportSection > h2 {
+  text-align: center;
+  font-family: cursive;
+  color: white;
+}
+
+.heroReport {
+  padding: 5px;
+  margin: 10px;
+}
+
+.heroReport > p {
+  font-family: cursive;
+  color: black;
+}
+.heroReport > p > span {
+  color: white;
+  font-size: 20px;
+}
+
+.inactive {
+  display: none;
+}
+
+.card {
+  width: 269px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+}
+
+.closedCard {
+  width: 269px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+  background-color: lightskyblue;
+}
+
+.closedCardButton {
+  position: absolute;
+  left: 115px;
+  top: 142px;
+}
+
+.reportBtn {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: cursive;
+  background-color: black;
+  color: white;
+}
+
+.reportBtn:hover {
+  background-color: red;
+}
+
+.closedCardButton > button:hover {
+  color: lightskyblue;
+  background-color: white;
+}
+
+.closedCardButton > button {
+  padding: 5px;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+}
+
+.cardImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.cardImageInner {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cardName {
+  margin-left: 62px;
+  margin-top: 30px;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
